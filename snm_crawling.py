@@ -16,7 +16,7 @@ select = Select(driver.find_element(By.XPATH, '//*[@id="sido"]'))
 select.select_by_visible_text('서울')
 driver.find_element(By.XPATH,'//*[@id="content"]/div[2]/div[1]/div[2]/a').click()
 time.sleep(1)
-view_branch_details = driver.find_elements(By.XPATH,'//*[@id="rMateH5__Content57"]/div')
+view_branch_details = driver.find_elements(By.CSS_SELECTOR,'#rMateH5__Content57 > div:nth-child(7)')
 print(view_branch_details)
 for vbd in view_branch_details:
     try:
@@ -38,8 +38,3 @@ for vbd in view_branch_details:
     except:
         pass
 driver.close()
-
-# //*[@id="rMateH5__Content57"]/div[6]
-# //*[@id="rMateH5__Content57"]/div[17]
-# //*[@id="rMateH5__Content57"]/div[19]
-# //*[@id="rMateH5__Content57"]/div[10]
