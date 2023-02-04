@@ -1,5 +1,6 @@
 # Visualize to protect the Elderly from traffic danger
-#### 노인 교통안전에 대한 문제점과 현재 부족한 대처 방식을 데이터로써 시각화함으로써 사실적으로 현 상황을 보여주고 개선방안을 제시하는 프로젝트 
+#### 노인 교통안전에 대한 문제점과 현재 부족한 대처 방식을 데이터로 시각화함으로써  
+#### 사실적으로 현 상황을 보여주고 개선방안을 제시하는 프로젝트 
 ## Production period
 - 2023.02.01 ~ 2023.02.03
 ## Participants and a major role
